@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/baas.iml" filepath="$PROJECT_DIR$/baas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baas-client/baas-client.iml" filepath="$PROJECT_DIR$/baas-client/baas-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baas-server/baas-server.iml" filepath="$PROJECT_DIR$/baas-server/baas-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baas-webapp/baas-webapp.iml" filepath="$PROJECT_DIR$/baas-webapp/baas-webapp.iml" />
+    </modules>
+  </component>
+</project>

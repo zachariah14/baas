@@ -1,0 +1,5 @@
+rootProject.name = 'baas'
+include 'baas-server'
+include 'baas-client'
+include 'baas-webapp'
+

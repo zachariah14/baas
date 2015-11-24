@@ -1,0 +1,70 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter() //for gulp
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.3.RELEASE")
+        classpath("be.filipblondeel.gradle:gradle-gulp-plugin:0.1") //for gulp
+    }
+}
+
+allprojects {
+    apply plugin: "java"
+
+    group 'com.playtech.ptcasual'
+    version '1.0-SNAPSHOT'
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    dependencies {
+        compile "org.springframework.boot:spring-boot-starter-test:1.2.3.RELEASE"
+        compile "com.google.guava:guava:18.0"
+        compile "com.h2database:h2:1.4.187"
+        compile "com.fasterxml.jackson.core:jackson-annotations:2.5.3"
+
+        testCompile "junit:junit:4.11"
+        testCompile "org.mockito:mockito-all:1.10.19"
+        testCompile "org.assertj:assertj-core:2.0.0"
+    }
+}
+
+project(":baas-server") {
+    dependencies {
+        compile "org.springframework.boot:spring-boot-starter-data-jpa:1.2.3.RELEASE"
+
+        testCompile project(":baas-client")
+    }
+
+    /*sourceSets {
+        unitTest {
+            java.srcDir file('src/test/java')
+            resources.srcDir file('src/test/resources')
+        }
+    }
+
+    task unitTest(type:Test, dependsOn: assemble) {
+        description = "run persistence unit tests"
+        testClassesDir = project.sourceSets.unitTest.output.classesDir
+        classpath = project.sourceSets.unitTest.runtimeClasspath
+    }*/
+}
+
+project(":baas-client") {
+    apply plugin: "spring-boot"
+
+    dependencies {
+        compile project(":baas-server")
+        compile "org.springframework.boot:spring-boot-starter-web:1.2.3.RELEASE"
+    }
+}
+
+project(":baas-webapp") {
+
+    apply plugin: 'gulp'
+
+}
