@@ -1,4 +1,6 @@
+@import "stylesheets/bootstrap";
 @import "variables";
+
 
 * {
     /*-webkit-box-shadow: none !important;
@@ -50,7 +52,7 @@ select {
 
 input[type="radio"], input[type="checkbox"] {
     margin: 0 0 0 !important;
-    margin-right: 5px !important;
+    margin-right: 15px !important;
     line-height: 23px !important;
     border: 0 !important;
 }
