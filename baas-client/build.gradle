@@ -1,0 +1,6 @@
+apply plugin: "spring-boot"
+
+dependencies {
+    compile project(":baas-server")
+    compile "org.springframework.boot:spring-boot-starter-web:1.2.3.RELEASE"
+}
