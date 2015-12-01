@@ -14,7 +14,7 @@
 
     var config = {
         appErrorPrefix: '[webapp Error] ',
-        appTitle: 'webapp'
+        appTitle: 'Playtech BAAS'
     };
 
     core.value('config', config);

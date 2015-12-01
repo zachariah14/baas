@@ -22,7 +22,7 @@
                     controllerAs: 'vm',
                     title: 'dashboard',
                     settings: {
-                        nav: 1,
+                        nav: 5,
                         content: '<i class="fa fa-dashboard"></i> Dashboard'
                     }
                 }

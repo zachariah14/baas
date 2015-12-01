@@ -1,6 +1,12 @@
 @import "stylesheets/bootstrap";
-@import "variables";
-
+@import "variables/_variables";
+@import "mixins/mixins";
+//@import "components/header";
+@import "components/sidebar";
+@import "components/buttons";
+@import "components/page";
+@import "components/panels";
+@import "components/jumbotron";
 
 * {
     /*-webkit-box-shadow: none !important;
@@ -559,7 +565,7 @@ form label {
 
 /* Sidebar */
 
-.sidebar {
+/*.sidebar {
     width: 230px;
     float: left;
     display: block;
@@ -645,7 +651,7 @@ form label {
     border-bottom: 1px solid #222;
 }
 
-/* Sidebar colors */
+!* Sidebar colors *!
 
 .sidebar .navi > li.nlightblue > a:hover,
 .sidebar .navi > li.open.nlightblue > a,
@@ -707,7 +713,7 @@ form label {
     transition: background 0.5s ease;
 }
 
-/* Sidebar dropdown */
+!* Sidebar dropdown *!
 
 .sidebar .sidebar-dropdown* {
     text-decoration: none;
@@ -733,7 +739,7 @@ form label {
     text-decoration: none;
 }
 
-/* Sidebar widget */
+!* Sidebar widget *!
 
 .sidebar .sidebar-widget {
     padding: 10px 5px;
@@ -781,7 +787,7 @@ form label {
 
 .sidebar .ui-state-hightlight, .sidebar .ui-state-active {
     background: #444;
-}
+}*/
 
 
 /* Main */

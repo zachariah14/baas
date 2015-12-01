@@ -2,7 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="171e3cb0-749f-474b-ad69-a5c172df8847" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersLogin.route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersProperties.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersProperties.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersProperties.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_buttons.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_header.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_jumbotron.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_page.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_panels.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_side-menu.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/mixins/_mixins.sass" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/baas-webapp/build/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/baas-webapp/build/js/app-70bdf84c73.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/baas-webapp/build/js/lib-6ff6740f0c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/baas-webapp/build/styles/app-b10e1defda.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/baas-webapp/build/styles/lib-1392290de7.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/_variables.scss" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/variables/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-client/build/distributions/baas-client-1.0-SNAPSHOT.tar" afterPath="$PROJECT_DIR$/baas-client/build/distributions/baas-client-1.0-SNAPSHOT.tar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-client/build/distributions/baas-client-1.0-SNAPSHOT.zip" afterPath="$PROJECT_DIR$/baas-client/build/distributions/baas-client-1.0-SNAPSHOT.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-client/build/libs/baas-client-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/baas-client/build/libs/baas-client-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-client/build/libs/baas-client-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/baas-client/build/libs/baas-client-1.0-SNAPSHOT.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/.sass-cache/a8ded9e6546661422ea4a44e1b51c572fe3feab5/styles.scssc" afterPath="$PROJECT_DIR$/baas-webapp/.sass-cache/a8ded9e6546661422ea4a44e1b51c572fe3feab5/styles.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/admin/admin.controller.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/admin/admin.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/admin/admin.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/admin/admin.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/admin/admin.route.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/admin/admin.route.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/admin/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/admin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/app.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/app.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/exception/exception-handler.provider.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/exception/exception-handler.provider.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/exception/exception.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/exception/exception.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/exception/exception.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/exception/exception.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/exception/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/exception/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/logger/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/logger/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/logger/logger.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/logger/logger.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/logger/logger.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/logger/logger.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/router/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/router/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/router/router-helper.provider.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/router/router-helper.provider.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/router/router.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/blocks/router/router.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/config.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/config.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/constants.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/constants.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/core.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/core.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/core.route.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/core.route.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/dataservice.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/dataservice.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/core/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/dashboard/dashboard.controller.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/dashboard/dashboard.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/dashboard/dashboard.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/dashboard/dashboard.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/dashboard/dashboard.route.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/dashboard/dashboard.route.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/dashboard/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/dashboard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/ht-sidebar.directive.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/ht-sidebar.directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/ht-top-nav.directive.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/ht-top-nav.directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/layout.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/layout.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/shell.controller.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/shell.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/sidebar.controller.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/sidebar.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/widgets/ht-img-person.directive.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/widgets/ht-img-person.directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/widgets/ht-widget-header.directive.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/widgets/ht-widget-header.directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/widgets/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/widgets/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/widgets/widgets.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/widgets/widgets.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/admin/admin.controller.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/admin/admin.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/admin/admin.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/admin/admin.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/admin/admin.route.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/admin/admin.route.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/admin/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/admin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/app.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/app.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception-handler.provider.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception-handler.provider.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/exception.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/exception/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/logger/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/logger/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/logger/logger.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/logger/logger.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/logger/logger.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/logger/logger.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/router-helper.provider.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/router-helper.provider.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/router.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/blocks/router/router.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/config.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/config.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/constants.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/constants.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/core.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/core.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/core.route.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/core.route.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/dataservice.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/dataservice.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/core/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.controller.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.route.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/dashboard.route.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/dashboard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/ht-sidebar.directive.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/ht-sidebar.directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/ht-top-nav.directive.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/ht-top-nav.directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/layout.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/layout.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/shell.controller.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/shell.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/sidebar.controller.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/layout/sidebar.controller.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/widgets/ht-img-person.directive.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/widgets/ht-img-person.directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/widgets/ht-widget-header.directive.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/widgets/ht-widget-header.directive.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/widgets/index.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/widgets/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/widgets/widgets.module.js.html" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov-report/src/client/app/widgets/widgets.module.js.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov.info" afterPath="$PROJECT_DIR$/baas-webapp/report/coverage/report-lcov/lcov.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/app/admin/admin.route.js" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/admin/admin.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/app/app.module.js" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/app.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/app/core/config.js" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/core/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/app/dashboard/dashboard.route.js" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/dashboard/dashboard.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/app/layout/sidebar.controller.js" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/layout/sidebar.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/index.html" afterPath="$PROJECT_DIR$/baas-webapp/src/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css.map" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss" />
     </list>
     <ignored path="baas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +179,35 @@
     <favorites_list name="baas" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/app.module.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gameProperties.route.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.route.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.5073892">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1547,9 +1698,37 @@
         <option value="$PROJECT_DIR$/messages/consumer/build.gradle" />
         <option value="$PROJECT_DIR$/baas-client/build.gradle" />
         <option value="$PROJECT_DIR$/baas-server/build.gradle" />
-        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss" />
         <option value="$PROJECT_DIR$/baas-webapp/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/build.module.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/report/coverage/report-html/src/client/app/layout/sidebar.controller.js.html" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.html" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.controller.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.module.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/layout/sidebar.controller.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/layout/sidebar.html" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/variables/_variables.scss" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_header.sass" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.module.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.html" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.controller.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.module.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.controller.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.html" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersProperties.controller.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersProperties.html" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersProperties.module.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/admin/admin.route.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/dashboard/dashboard.route.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.route.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersLogin.route.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.route.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.scss" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/index.html" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/core/config.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/app.module.js" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.route.js" />
       </list>
     </option>
   </component>
@@ -1566,8 +1745,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3895" />
-    <option name="y" value="14" />
+    <option name="x" value="1998" />
     <option name="width" value="1642" />
     <option name="height" value="985" />
   </component>
@@ -1614,6 +1792,516 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="players" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="players" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="router" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baas-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -1630,15 +2318,19 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andriypa\Documents\GIT\baas\baas-webapp\src\client\styles\variables" />
+      <recent name="C:\Users\andriypa\Documents\GIT\baas\baas-webapp\src\client\app\build\game\properties" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.playtech.ptcasual.baas.client" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\andriypa\Documents\GIT\baas\baas-client" />
-      <recent name="C:\Users\andriypa\Documents\GIT\baas\baas-server" />
-      <recent name="C:\Users\andriypa\Documents\GIT\baas\baas-webapp" />
-      <recent name="C:\Users\andriypa\Documents\GIT\baas\messages" />
-      <recent name="C:\Users\andriypa\Documents\GIT\baas\messages\producer" />
+      <recent name="C:\Users\andriypa\Documents\GIT\baas\baas-webapp\src\client\app\build\players\properties" />
+      <recent name="C:\Users\andriypa\Documents\GIT\baas\baas-webapp\src\client\app\build\players\login" />
+      <recent name="C:\Users\andriypa\Documents\GIT\baas\baas-webapp\src\client\app\build\game\assets" />
+      <recent name="C:\Users\andriypa\Documents\GIT\baas\baas-webapp\src\client\styles" />
+      <recent name="C:\Users\andriypa\Documents\GIT\baas\baas-webapp\src\client\styles\components" />
     </key>
   </component>
   <component name="RunManager">
@@ -2084,12 +2776,12 @@
       <workItem from="1448378550944" duration="11076000" />
       <workItem from="1448443656980" duration="448000" />
       <workItem from="1448444360116" duration="44391000" />
-      <workItem from="1448635797360" duration="24000" />
+      <workItem from="1448635797360" duration="42804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55939000" />
+    <option name="totallyTimeSpent" value="98719000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2101,34 +2793,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3895" y="14" width="1642" height="985" extended-state="0" />
+    <frame x="1998" y="0" width="1642" height="985" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.720339" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2777778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16814159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25094816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18773705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51452786" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18773705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24697337" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292978" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3200483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2147,115 +2839,253 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baas-webapp/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/blocks/router/router-helper.provider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70947033">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_buttons.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5064767">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="516" column="19" selection-start-line="516" selection-start-column="19" selection-end-line="516" selection-end-column="19" />
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/gulp.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-client/src/main/java/com/playtech/ptcasual/baas/client/SpringApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54371">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-2.5-all/d3xh0kipe7wr2bvnx5sk0hao8/gradle-2.5/src/core/org/gradle/api/plugins/PluginAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/angular/bower.json">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/mixins/_mixins.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/karma.conf.js">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/variables/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38398358">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5208333">
+          <caret line="3633" column="16" selection-start-line="3633" selection-start-column="16" selection-end-line="3633" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="516" column="19" selection-start-line="516" selection-start-column="19" selection-end-line="516" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/node_modules/less/test/css/extend-clearfix.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22020726">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/shell.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15414508">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33240223">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39534885">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap-mincer.scss">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersProperties.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersProperties.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/admin/admin.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/dashboard/dashboard.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersProperties.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8857716">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35940802">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4509018">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_side-menu.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="29.423077">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.807693">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/players/login/playersLogin.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/players/properties/playersLogin.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="78" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/game/assets/gameAssets.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.181818">
+          <caret line="112" column="37" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/dashboard/dashboard.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap-compass.scss">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-sidebar.directive.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="48" selection-start-line="121" selection-start-column="48" selection-end-line="121" selection-end-column="48" />
+          <folding>
+            <marker date="1448355573000" expanded="true" signature="1337:1350" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.5172415">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/server/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/server/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.076923">
-          <caret line="367" column="52" selection-start-line="367" selection-start-column="52" selection-end-line="367" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.692307">
-          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+        <state vertical-scroll-proportion="21.781818">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-top-nav.html">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/widgets/widgets.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71428573">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2263,176 +3093,161 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7927461">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34196892">
-          <caret line="96" column="7" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32124352">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/angular/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5800971">
-          <caret line="77" column="455" selection-start-line="77" selection-start-column="455" selection-end-line="77" selection-end-column="455" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33252427">
-          <caret line="7530" column="41" selection-start-line="7530" selection-start-column="41" selection-end-line="7530" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/dashboard/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.58549225">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-sidebar.directive.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3009708">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_alerts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5028169">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.31690142">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025352113">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/stylesheets/bootstrap/mixins/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/stylesheets/_bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29707113">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68244576">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.619247">
-          <caret line="1211" column="29" selection-start-line="1211" selection-start-column="29" selection-end-line="1211" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40236688">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/gulp.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20075047">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11888112">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-2.5-all/d3xh0kipe7wr2bvnx5sk0hao8/gradle-2.5/src/core/org/gradle/api/Project.java">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/widgets/ht-widget-header.directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5710956">
-          <caret line="1126" column="9" selection-start-line="1126" selection-start-column="9" selection-end-line="1126" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68430036">
-          <caret line="1330" column="0" selection-start-line="1330" selection-start-column="0" selection-end-line="1330" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3025641">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-client/build.gradle">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/widgets/ht-img-person.directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17435898">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-server/build.gradle">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/sidebar.controller.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/sidebar.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.137931">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/shell.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/shell.controller.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/shell.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/layout.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/build.gradle">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-top-nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2905983">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.418182">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-top-nav.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.137931">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-sidebar.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.758621">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/core/dataservice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39583334">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/core/core.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/core/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/core/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27468583">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/core/core.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/app.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5073892">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
