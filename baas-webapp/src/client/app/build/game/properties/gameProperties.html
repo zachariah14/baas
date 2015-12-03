@@ -1,67 +1,169 @@
 <section id="dashboard-view" class="mainbar">
     <section class="matter">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="today-datas">
-                        <li class="blightblue">
-                            <div class="pull-left"><i class="fa fa-plane"></i></div>
-                            <div class="datas-text pull-right">
-                                <span class="bold">DECEMBER</span> Fort Saint John, BC
-                            </div>
-                            <div class="clearfix"></div>
-                        </li>
-
-                        <li class="borange">
-                            <div class="pull-left"><i class="fa fa-envelope"></i></div>
-                            <div class="datas-text pull-right">
-                                <span class="bold">{{vm.messageCount}}</span> Messages
-                            </div>
-                            <div class="clearfix"></div>
-                        </li>
-
+            <div class="inner-page-header">
+                <div class="page-title">
+                    <h2>Game Properties Configuration</h2>
+                </div>
+                <div class="page-tools">
+                    <ul class="nav nav-pills">
+                        <li><i class="fa fa-file-code-o"></i></li>
+                        <li id="fa-quaetion"><i class="fa fa-question-circle"/></i></li>
+                        <li id="fa-download"><i class="fa fa-download"/></i></li>
+                        <li><i class="fa fa-upload"/></i></li>
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="widget wviolet">
-                        <div ht-widget-header title="People"
-                             allow-collapse="true"></div>
-                        <div class="widget-content text-center text-info">
-                            <table class="table table-condensed table-striped">
-                                <thead>
+
+            <div class="inner-page-content">
+
+                <!--CURRENCY FORM-->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row" ng-if="errorMessage != null">
+                            <div class="alert alert-danger">{{errorMessage}}</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="gameName">Game Name</label>
+                                        <input ng-model="currency.curname"
+                                        type="text"
+                                        class="form-control input-xs"
+                                        id="gameName"
+                                        placeholder="">
+                                        <label for="gameDescription">Game Description</label>
+                                        <textarea class="form-control" id="gameDescription" rows="3" placeholder="Description..."/>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+
+                                <form role="form" >
+                                    <div class="form-group" >
+                                        <input-button select-val = "currency.curtype = selectedVal"
+                                                     preselected-item = "get"
+                                                     data-dropdown-data = "types"
+                                                     id="currency-type-btn"
+                                                     data-menu-type="button"/>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input ng-model="currency.curmin" type="text" class="form-control input-xs" id="min"
+                                               placeholder="Min">
+                                    </div>
+                                    <div class="form-group">
+                                        <input ng-model="currency.curmax" type="text" class="form-control input-xs" id="max"
+                                               placeholder="Max">
+                                    </div>
+                                    <div class="form-group">
+                                        <a id="add-curr-btn" class="btn btn-default btn-xs"  ng-click="addCurrency()" href="#">
+                                            <i class="fa fa-plus"></i> Add Currency</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--CURRENCY FORM END-->
+
+                <!--CURRENCY TABLE-->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                        <table class="table table-hover table-striped table-condensed">
+                            <thead>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Min</th>
+                            <th>Max</th>
+                            <th>Action</th>
+                            </thead>
+                            <tbody>
+                            <tr ng-repeat="currency in currencies | filter:query">
+                                <td>{{currency.curname}}</td>
+                                <td>{{currency.curtype}}</td>
+                                <td>{{currency.curmin}}</td>
+                                <td>{{currency.curmax}}</td>
+                                <td>
+                                    <button type="button" class="btn btn-danger btn-xs"
+                                            ng-click="deleteCurrency(currency.id)">Delete <span
+                                        class="fa fa-remove"></span></button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- END OF PROPERTIES CONTENT -->
+
+                <!-- START OF SAMPLE -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="today-datas">
+                            <li class="blightblue">
+                                <div class="pull-left"><i class="fa fa-plane"></i></div>
+                                <div class="datas-text pull-right">
+                                    <span class="bold">DECEMBER</span> Fort Saint John, BC
+                                </div>
+                                <div class="clearfix"></div>
+                            </li>
+
+                            <li class="borange">
+                                <div class="pull-left"><i class="fa fa-envelope"></i></div>
+                                <div class="datas-text pull-right">
+                                    <span class="bold">{{vm.messageCount}}</span> Messages
+                                </div>
+                                <div class="clearfix"></div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="widget wviolet">
+                            <div ht-widget-header title="People"
+                                 allow-collapse="true"></div>
+                            <div class="widget-content text-center text-info">
+                                <table class="table table-condensed table-striped">
+                                    <thead>
                                     <tr>
                                         <th>First Name</th>
                                         <th>Last Name</th>
                                         <th>Age</th>
                                         <th>Location</th>
                                     </tr>
-                                </thead>
-                                <tbody>
+                                    </thead>
+                                    <tbody>
                                     <tr ng-repeat="p in vm.people">
                                         <td>{{p.firstName}}</td>
                                         <td>{{p.lastName}}</td>
                                         <td>{{p.age}}</td>
                                         <td>{{p.location}}</td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="widget-foot">
-                            <div class="clearfix"></div>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="widget-foot">
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="widget wgreen">
-                        <div ht-widget-header title="{{vm.news.title}}"
-                             allow-collapse="true"></div>
-                        <div class="widget-content text-center text-info">
-                            <small>{{vm.news.description}}</small>
-                        </div>
-                        <div class="widget-foot">
-                            <div class="clearfix"></div>
+                    <div class="col-md-6">
+                        <div class="widget wgreen">
+                            <div ht-widget-header title="{{vm.news.title}}"
+                                 allow-collapse="true"></div>
+                            <div class="widget-content text-center text-info">
+                                <small>{{vm.news.description}}</small>
+                            </div>
+                            <div class="widget-foot">
+                                <div class="clearfix"></div>
+                            </div>
                         </div>
                     </div>
                 </div>

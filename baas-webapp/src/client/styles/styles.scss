@@ -1,3 +1,6 @@
+$fa-font-path: "/bower_components/font-awesome/fonts/";
+@import "../../../bower_components/font-awesome/scss/font-awesome";
+
 @import "stylesheets/bootstrap";
 @import "variables/_variables";
 @import "mixins/mixins";
@@ -21,7 +24,40 @@
     /*font-weight: 400;*/
 }
 
-.btn, .badge, .modal, .modal-dialog, .modal-content,
+/*** TOP MENU User Login :START ***/
+a.user-profile {
+    color: #5E6974 !important;
+}
+
+.user-profile img {
+    width: 29px !important;
+    height: 29px !important;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a.user-profile {
+        padding-top: 12px;
+        padding-bottom: 9px;
+        margin-left: 30px;
+    }
+}
+
+.header-btn {
+    padding-top: 12px;
+
+    &.last {
+        margin-right: 30px;
+    }
+}
+/*-- TOP MENU User Login :END --*/
+
+input.form-control {
+    margin-bottom: 10px;
+}
+
+.badge, .modal, .modal-dialog, .modal-content,
 input, select {
     -ms-border-radius: 0 !important;
     border-radius: 0 !important;
@@ -1316,7 +1352,8 @@ body {
 }
 
 .navbar-inverse {
-    background-color: #333;
+    background-color: $color_purple;//$brandbar-bg;
+    //background-color: #333;
 }
 
 .sidebar-widget form {
@@ -1340,10 +1377,12 @@ body {
 }
 
 .navbar-inverse .btn-navbar {
+    //background-color: $brandbar-bg;
     background-color: #333;
 }
 
 .navbar-inverse .btn-navbar:hover {
+    //background-color: $brandbar-bg;
     background-color: #333;
 }
 
@@ -1392,8 +1431,8 @@ textarea.form-control {
     /*width: 205px;*/
     display: inline;
     display: block;
-    width: 50%;
-    max-width: 30em;
+    //width: 50%;
+    //max-width: 30em;
 }
 
 .widget .padd {
@@ -1530,9 +1569,9 @@ small {
     color: #FFFFFF;
 }
 
-.navbar-logo img {
-    height: 20px;
-}
+//.navbar-logo img {
+//    height: 20px;
+//}
 
 .today-datas li {
     padding: 20px 14px;

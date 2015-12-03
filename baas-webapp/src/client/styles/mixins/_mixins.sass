@@ -12,11 +12,9 @@
   background: -ms-linear-gradient(left, $color2 0%,$color2 21%,$color3 92%) /* IE10+ */
   background: linear-gradient(to right, $color2 0%,$color2 21%,$color3 92%) /* W3C */
 
-
 =brandGradientFilter($start, $end)
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=$start, endColorstr=$end,GradientType=1 ) /* IE6-9 */
 
 =defaultButtonStatesBG()
-  background-color: darken($brandbar-bg, 5%)
-  border: solid 1px darken($brandbar-bg, 10%)
+  border: 1px solid white
   color: white

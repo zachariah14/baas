@@ -45,7 +45,6 @@ module.exports = function() {
         ],
         less: client + 'styles/styles.less',
         sass: client + 'styles/styles.scss',
-        //sass: client + 'styles/styles.scss',
         report: report,
         root: root,
         server: server,

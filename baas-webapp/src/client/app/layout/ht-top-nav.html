@@ -7,7 +7,101 @@
             <span class="icon-bar"></span>
         </a>
     </div>
+
     <div class="navbar-collapse collapse">
+        <div class="pull-right navbar-logo">
+            <ul class="nav navbar-nav pull-right">
+
+                <li class="header-btn">
+                    <div class="btn-group">
+                        <input-button select-val = "currency.curtype = selectedVal"
+                                      preselected-item = "get"
+                                      data-dropdown-data = "types"
+                                      placeholder = "Game"
+                                      id="game-btn"
+                                      data-menu-type="button"/>
+                    </div>
+                </li>
+
+                <li class="header-btn last">
+                    <div class="btn-group">
+                        <input-button select-val = "currency.curtype = selectedVal"
+                                      preselected-item = "get"
+                                      data-dropdown-data = "types"
+                                      placeholder = "Version"
+                                      id="version-btn"
+                                      data-menu-type="button"/>
+                    </div>
+                </li>
+
+               <!-- <li class="header-btn">
+                    <div class="btn-group">
+                        <button class="btn btn-default btn-xs dropdown-toggle btn-block outline"
+                                type="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            Game
+                            <span class="fa fa-angle-down"/>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">IMS</a></li>
+                            <li><a href="#">Casino</a></li>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Sportsbook</a></li>
+                            <li><a href="#">Poker</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Live Games</a></li>
+                            <li><a href="#">Online Bingo</a></li>
+                            <li><a href="#">Lottery</a></li>
+                            <li><a href="#">Retail</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Binary Options</a></li>
+                            <li><a href="#">Social Gaming</a></li>
+                            <li><a href="#">Mexos</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header-btn last">
+                    <div class="btn-group">
+                        <button class="btn btn-default btn-xs dropdown-toggle btn-block outline"
+                                type="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            Version
+                            <span class="caret"/>
+                        </button>
+                        <ul class="dropdown-menu">
+                            &lt;!&ndash;<li class="nav-header">Versions 1.*</li>&ndash;&gt;
+                            <li><a href="#">1.0</a></li>
+                            <li><a href="#">1.1</a></li>
+                            <li><a href="#">1.2</a></li>
+                            <li class="divider"></li>
+                            &lt;!&ndash;<li class="nav-header">Versions 2.*</li>&ndash;&gt;
+                            <li><a href="#">2.0</a></li>
+                            <li><a href="#">2.1</a></li>
+                            <li class="divider"></li>
+                            &lt;!&ndash;<li class="nav-header">Versions 3.*</li>&ndash;&gt;
+                            <li><a href="#">3.0</a></li>
+                            <li><a href="#">3.1</a></li>
+                        </ul>
+                    </div>
+                </li>-->
+
+                <li ng-repeat="section in vm.navline.sections" ng-class="{open:($parent.selected == $index)}" ng-click="$parent.selected = $index">
+                    <a href="#">{{section}}</a>
+                </li>
+
+                <li class="user-login">
+                    <a href="#" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <img src="images/img.jpg" alt="">{{vm.navline.user}}
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    <!--<div class="navbar-collapse collapse">
         <div class="pull-right navbar-logo">
             <ul class="nav navbar-nav pull-right">
                 <li>
@@ -27,5 +121,6 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div>-->
+
 </nav>

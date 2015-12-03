@@ -5,7 +5,7 @@
         .module('app.playersProperties')
         .controller('PlayersPropertiesController', PlayersPropertiesController);
 
-    PlayersLoginController.$inject = ['$q', 'dataservice', 'logger'];
+    PlayersPropertiesController.$inject = ['$q', 'dataservice', 'logger'];
     /* @ngInject */
     function PlayersPropertiesController($q, dataservice, logger) {
         var vm = this;
