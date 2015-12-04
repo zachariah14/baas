@@ -17,7 +17,7 @@
 
             <div class="inner-page-content">
 
-                <!--CURRENCY FORM-->
+                <!--PROPERTY FORM-->
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="row" ng-if="errorMessage != null">
@@ -25,73 +25,92 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <form>
-                                    <div class="form-group">
+                                    <div class="form-group vertical">
                                         <label for="gameName">Game Name</label>
                                         <input ng-model="currency.curname"
-                                        type="text"
-                                        class="form-control input-xs"
-                                        id="gameName"
-                                        placeholder="">
-                                        <label for="gameDescription">Game Description</label>
-                                        <textarea class="form-control" id="gameDescription" rows="3" placeholder="Description..."/>
+                                               type="text"
+                                               class="form-control input-xs"
+                                               id="gameName"
+                                               placeholder="">
+
+                                        <textarea class="form-control"
+                                                  rows="3"
+                                                  id="gameDescription"
+                                                  placeholder="Description..."/>
                                     </div>
                                 </form>
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-                                <form role="form" >
+                                <form role="form" id="property-form" class="navbar-form navbar-left">
+                                    <div class="form-group">
+                                        <input ng-model="property.name" type="text" class="form-control input-xs" id="min"
+                                               placeholder="Property Name...">
+                                    </div>
+
                                     <div class="form-group" >
-                                        <input-button select-val = "currency.curtype = selectedVal"
+
+                                        <select class="form-control input-xs">
+                                            <option>Type</option>
+
+                                            <option>Integer</option>
+                                            <option>Float</option>
+                                            <option>Double</option>
+                                        </select>
+
+                                        <!--<div class="btn-group">
+                                            <input-button select-val = "currency.curtype = selectedVal"
+                                                          preselected-item = "get"
+                                                          data-dropdown-data = "types"
+                                                          placeholder = "Type"
+                                                          id="game-property-type-btn"
+                                                          data-menu-type="button"/>
+                                        </div>-->
+                                        <!--<input-button select-val = "currency.curtype = selectedVal"
                                                      preselected-item = "get"
                                                      data-dropdown-data = "types"
                                                      id="currency-type-btn"
-                                                     data-menu-type="button"/>
+                                                     data-menu-type="button"/>-->
                                     </div>
 
                                     <div class="form-group">
-                                        <input ng-model="currency.curmin" type="text" class="form-control input-xs" id="min"
-                                               placeholder="Min">
+                                        <input ng-model="property.value" type="text" class="form-control input-xs" id="max"
+                                               placeholder="Value...">
                                     </div>
                                     <div class="form-group">
-                                        <input ng-model="currency.curmax" type="text" class="form-control input-xs" id="max"
-                                               placeholder="Max">
-                                    </div>
-                                    <div class="form-group">
-                                        <a id="add-curr-btn" class="btn btn-default btn-xs"  ng-click="addCurrency()" href="#">
-                                            <i class="fa fa-plus"></i> Add Currency</a>
+                                        <a id="add-curr-btn" class="btn btn-success btn-xs"  ng-click="addCurrency()" href="#">
+                                            <i class="fa fa-plus"></i> Add Property</a>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--CURRENCY FORM END-->
+                <!--PROPERTY FORM-->
 
-                <!--CURRENCY TABLE-->
+                <!--PROPERTIES TABLE-->
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                         <table class="table table-hover table-striped table-condensed">
                             <thead>
                             <th>Name</th>
                             <th>Type</th>
-                            <th>Min</th>
-                            <th>Max</th>
+                            <th>Value</th>
                             <th>Action</th>
                             </thead>
                             <tbody>
                             <tr ng-repeat="currency in currencies | filter:query">
-                                <td>{{currency.curname}}</td>
-                                <td>{{currency.curtype}}</td>
-                                <td>{{currency.curmin}}</td>
-                                <td>{{currency.curmax}}</td>
+                                <td>{{property.name}}</td>
+                                <td>{{property.type}}</td>
+                                <td>{{property.value}}</td>
                                 <td>
                                     <button type="button" class="btn btn-danger btn-xs"
-                                            ng-click="deleteCurrency(currency.id)">Delete <span
+                                            ng-click="deleteProperty(property.id)">Delete <span
                                         class="fa fa-remove"></span></button>
                                 </td>
                             </tr>
@@ -102,7 +121,7 @@
                 <!-- END OF PROPERTIES CONTENT -->
 
                 <!-- START OF SAMPLE -->
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-md-12">
                         <ul class="today-datas">
                             <li class="blightblue">
@@ -166,7 +185,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>

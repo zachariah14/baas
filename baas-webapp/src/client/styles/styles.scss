@@ -2,7 +2,7 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
 @import "../../../bower_components/font-awesome/scss/font-awesome";
 
 @import "stylesheets/bootstrap";
-@import "variables/_variables";
+@import "variables/variables";
 @import "mixins/mixins";
 //@import "components/header";
 @import "components/sidebar";
@@ -10,6 +10,9 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
 @import "components/page";
 @import "components/panels";
 @import "components/jumbotron";
+@import "components/form";
+@import "components/select";
+@import "components/input";
 
 * {
     /*-webkit-box-shadow: none !important;
@@ -24,22 +27,22 @@ $fa-font-path: "/bower_components/font-awesome/fonts/";
     /*font-weight: 400;*/
 }
 
-/*** TOP MENU User Login :START ***/
+/*** start TOP MENU User Login ***/
 a.user-profile {
     color: #5E6974 !important;
 }
 
 .user-profile img {
-    width: 29px !important;
-    height: 29px !important;
+    width: 39px !important;
+    height: 39px !important;
     border-radius: 50%;
     margin-right: 10px;
 }
 
 @media (min-width: 768px) {
     .navbar-nav > li > a.user-profile {
-        padding-top: 12px;
-        padding-bottom: 9px;
+        padding-top: 5px;
+        padding-bottom: 0;
         margin-left: 30px;
     }
 }
@@ -51,24 +54,12 @@ a.user-profile {
         margin-right: 30px;
     }
 }
-/*-- TOP MENU User Login :END --*/
+/*** end TOP MENU User Login ***/
 
-input.form-control {
-    margin-bottom: 10px;
-}
-
-.badge, .modal, .modal-dialog, .modal-content,
-input, select {
+.badge, .modal, .modal-dialog, .modal-content {
     -ms-border-radius: 0 !important;
     border-radius: 0 !important;
 }
-
-input, select {
-    padding: 4px !important;
-    /*width: 65% !important;*/
-    display: inline-block !important;
-}
-
 
 .navbar * {
     background-image: none !important;
@@ -77,26 +68,10 @@ input, select {
     text-shadow: none !important;
 }
 
-form * {
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-}
-
-input, textarea {
+textarea {
     background-image: none !important;
     border: 1px solid #ccc !important;
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-}
-
-select {
-    font-size: 13px !important;
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-}
-
-input[type="radio"], input[type="checkbox"] {
-    margin: 0 0 0 !important;
-    margin-right: 15px !important;
-    line-height: 23px !important;
-    border: 0 !important;
 }
 
 .btn {
@@ -396,47 +371,6 @@ a.btn {
 .modal-header {
     padding-top: 7px;
     padding-bottom: 7px;
-}
-
-/* Form */
-
-form {
-    margin: 10px;
-}
-
-form input, form button, form textarea, form select {
-    font-size: 13px !important;
-}
-
-form label {
-    font-size: 13px;
-    line-height: 13px;
-}
-
-.form-inline button {
-    margin-left: 15px;
-}
-
-.form-horizontal .control-label {
-    width: 90px;
-}
-
-.form-horizontal .controls {
-    margin-left: 110px;
-}
-
-.form-horizontal .controls:first-child {
-    *padding-left: 100px;
-}
-
-.form-horizontal .form-actions {
-    padding-left: 110px;
-}
-
-.form-actions {
-    padding: 5px 20px 5px;
-    background: transparent;
-    border-top: 0;
 }
 
 /* Back to top */
@@ -1324,24 +1258,6 @@ form label {
 
 /*#endregion */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*#region Override background color theme */
 
 /*For Bootstrap 3*/
@@ -1352,28 +1268,8 @@ body {
 }
 
 .navbar-inverse {
-    background-color: $color_purple;//$brandbar-bg;
+    background-color: $color_narkum_sea;
     //background-color: #333;
-}
-
-.sidebar-widget form {
-    margin: 0em -1em;
-}
-
-.sidebar .navi > li > a {
-    background-color: #333 !important;
-}
-
-.sidebar .navi li ul li a {
-    color: #fff;
-}
-
-.sidebar .navi li ul li a:hover {
-    color: $color_lightblue;
-}
-
-.sidebar .navi li ul li a:disabled {
-    color: #999;
 }
 
 .navbar-inverse .btn-navbar {
@@ -1384,24 +1280,6 @@ body {
 .navbar-inverse .btn-navbar:hover {
     //background-color: $brandbar-bg;
     background-color: #333;
-}
-
-.sidebar {
-    margin-top: -2px;
-}
-
-.sidebar .sidebar-inner {
-    background-color: #333;
-}
-
-.sidebar-filler {
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color: #333;
-    width: 230px;
 }
 
 /*#endregion */
@@ -1421,12 +1299,6 @@ ul.image-group li {
     display: none !important;
 }
 
-select > option {
-    color: black;
-}
-
-input.form-control,
-select.form-control,
 textarea.form-control {
     /*width: 205px;*/
     display: inline;
@@ -1532,10 +1404,6 @@ small {
 .form-search {
     min-height: 2em;
 }
-
-.input-group[class*="col-"] {
-    width: 80%;
-    margin: 0 1.5em;}
 
 .user .user-pic {
     display: block;
@@ -1927,7 +1795,7 @@ a {
 }
 
 @media (max-width: 480px) {
-    input.form-control, select.form-control, textarea.form-control {
+    textarea.form-control {
         width: 70%;
     }
 }
@@ -1958,11 +1826,6 @@ a {
 
     .btn-group.pull-right {
         margin: .2em 0;
-    }
-
-    input,
-    select {
-        width: 85% !important;
     }
 
     textarea {

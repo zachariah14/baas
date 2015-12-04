@@ -1,0 +1,26 @@
+select
+    border: none
+    //-ms-border-radius: 0 !important
+    //border-radius: 0 !important
+    //padding: 4px !important
+    //display: inline-block !important
+    //font-size: 13px !important
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif
+
+    & > option
+        color: black
+
+    &.form-control
+        display: inline
+        display: block
+        /*width: 205px;*/
+        //width: 50%;
+        //max-width: 30em;
+
+@media (max-width: 480px)
+    select.form-control
+        width: 70%
+
+@media (max-width: 320px)
+    select
+        width: 85% !important
