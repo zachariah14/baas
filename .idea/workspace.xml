@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="171e3cb0-749f-474b-ad69-a5c172df8847" name="Default" comment="baas - applying colors of doron sample, fixes for components like select">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_form.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_input.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_select.sass" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.scss" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.sass" />
+    <list default="true" id="171e3cb0-749f-474b-ad69-a5c172df8847" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/.sass-cache/a8ded9e6546661422ea4a44e1b51c572fe3feab5/styles.scssc" afterPath="$PROJECT_DIR$/baas-webapp/.sass-cache/a8ded9e6546661422ea4a44e1b51c572fe3feab5/styles.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.html" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-top-nav.html" afterPath="$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-top-nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_page.sass" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_page.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_panels.sass" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_panels.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_select.sass" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_select.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css.map" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss" afterPath="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss" />
@@ -70,41 +65,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.6547618">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_sidebar.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6545453">
-              <caret line="163" column="44" selection-start-line="163" selection-start-column="44" selection-end-line="163" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/variables/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ht-top-nav.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-top-nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.692307">
-              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+            <state vertical-scroll-proportion="-10.807693">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.4363636">
+              <caret line="1268" column="0" selection-start-line="1268" selection-start-column="0" selection-end-line="1268" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,8 +88,58 @@
       <file leaf-file-name="gameProperties.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+            <state vertical-scroll-proportion="-118.34615">
+              <caret line="181" column="60" selection-start-line="181" selection-start-column="60" selection-end-line="181" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_select.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_select.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/variables/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_sidebar.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="23.90909">
+              <caret line="130" column="2" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.127273">
+              <caret line="9848" column="0" selection-start-line="9848" selection-start-column="0" selection-end-line="9848" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_page.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_page.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0095786">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1600,7 +1625,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/try/projectB/build.gradle" />
         <option value="$PROJECT_DIR$/messages/build.gradle" />
         <option value="$PROJECT_DIR$/messages/settings.gradle" />
         <option value="$PROJECT_DIR$/messages/producer/build.gradle" />
@@ -1641,16 +1665,17 @@
         <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_buttons.sass" />
         <option value="$PROJECT_DIR$/baas-webapp/src/client/app/widgets/input-button.directive.js" />
         <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_panels.sass" />
-        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_page.sass" />
-        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_select.sass" />
         <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_form.sass" />
         <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_input.sass" />
-        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-top-nav.html" />
-        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.html" />
         <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.scss" />
-        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/variables/_variables.scss" />
         <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.sass" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/variables/_variables.scss" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_select.sass" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-top-nav.html" />
         <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.html" />
+        <option value="$PROJECT_DIR$/baas-webapp/src/client/styles/components/_page.sass" />
       </list>
     </option>
   </component>
@@ -1667,8 +1692,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3936" />
-    <option name="y" value="46" />
+    <option name="x" value="2078" />
+    <option name="y" value="4" />
     <option name="width" value="1642" />
     <option name="height" value="1011" />
   </component>
@@ -2653,7 +2678,7 @@
       <workItem from="1448444360116" duration="44391000" />
       <workItem from="1448635797360" duration="44849000" />
       <workItem from="1449047313578" duration="6628000" />
-      <workItem from="1449063287476" duration="65983000" />
+      <workItem from="1449063287476" duration="71585000" />
     </task>
     <task id="LOCAL-00001" summary="baas - restyling sidebar menu and implementing navigation according baas template">
       <created>1448988793607</created>
@@ -2667,11 +2692,17 @@
       <option name="project" value="LOCAL" />
       <updated>1449166238030</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="baas - applying colors of doron sample, fixes for components like select">
+      <created>1449256637350</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1449256637350</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173375000" />
+    <option name="totallyTimeSpent" value="178977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2683,7 +2714,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3936" y="46" width="1642" height="1011" extended-state="0" />
+    <frame x="2078" y="4" width="1642" height="1011" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2691,7 +2722,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8039906" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32394367" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2777778" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3029,26 +3060,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_page.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17042607">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_panels.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48997495">
           <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_select.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3069,14 +3084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-top-nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/widgets/input-button.directive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47936893">
@@ -3085,42 +3092,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.html">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
-          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state vertical-scroll-proportion="23.90909">
+          <caret line="130" column="2" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/variables/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="18" />
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_sidebar.sass">
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_select.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6545453">
-          <caret line="163" column="44" selection-start-line="163" selection-start-column="44" selection-end-line="163" selection-end-column="44" />
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/layout/ht-top-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.807693">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.6547618">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.4363636">
+          <caret line="1268" column="0" selection-start-line="1268" selection-start-column="0" selection-end-line="1268" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.127273">
+          <caret line="9848" column="0" selection-start-line="9848" selection-start-column="0" selection-end-line="9848" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/app/build/game/properties/gameProperties.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-118.34615">
+          <caret line="181" column="60" selection-start-line="181" selection-start-column="60" selection-end-line="181" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baas-webapp/src/client/styles/components/_page.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0095786">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>

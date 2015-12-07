@@ -1,123 +1,133 @@
 <section id="dashboard-view" class="mainbar">
     <section class="matter">
         <div class="container">
-            <div class="inner-page-header">
-                <div class="page-title">
-                    <h2>Game Properties Configuration</h2>
-                </div>
-                <div class="page-tools">
-                    <ul class="nav nav-pills">
-                        <li><i class="fa fa-file-code-o"></i></li>
-                        <li id="fa-quaetion"><i class="fa fa-question-circle"/></i></li>
-                        <li id="fa-download"><i class="fa fa-download"/></i></li>
-                        <li><i class="fa fa-upload"/></i></li>
-                    </ul>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="inner-page-header">
+                        <div class="page-title">
+                            <h2>Game Properties Configuration</h2>
+                        </div>
+                        <div class="page-tools">
+                            <ul class="nav nav-pills">
+                                <li><i class="fa fa-file-code-o"></i></li>
+                                <li id="fa-quaetion"><i class="fa fa-question-circle"/></i></li>
+                                <li id="fa-download"><i class="fa fa-download"/></i></li>
+                                <li><i class="fa fa-upload"/></i></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="inner-page-content">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="inner-page-content">
 
-                <!--PROPERTY FORM-->
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <div class="row" ng-if="errorMessage != null">
-                            <div class="alert alert-danger">{{errorMessage}}</div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                <form>
-                                    <div class="form-group vertical">
-                                        <label for="gameName">Game Name</label>
-                                        <input ng-model="currency.curname"
-                                               type="text"
-                                               class="form-control input-xs"
-                                               id="gameName"
-                                               placeholder="">
-
-                                        <textarea class="form-control"
-                                                  rows="3"
-                                                  id="gameDescription"
-                                                  placeholder="Description..."/>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
+                        <!--PROPERTY FORM-->
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="row" ng-if="errorMessage != null">
+                                    <div class="alert alert-danger">{{errorMessage}}</div>
+                                </div>
 
-                                <form role="form" id="property-form" class="navbar-form navbar-left">
-                                    <div class="form-group">
-                                        <input ng-model="property.name" type="text" class="form-control input-xs" id="min"
-                                               placeholder="Property Name...">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                        <form>
+                                            <div class="form-group vertical">
+                                                <label for="gameName">Game Name</label>
+                                                <input ng-model="currency.curname"
+                                                       type="text"
+                                                       class="form-control input-xs"
+                                                       id="gameName"
+                                                       placeholder="">
+
+                                                <textarea class="form-control"
+                                                          rows="3"
+                                                          id="gameDescription"
+                                                          placeholder="Description..."/>
+                                            </div>
+                                        </form>
                                     </div>
+                                </div>
 
-                                    <div class="form-group" >
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-                                        <select class="form-control input-xs">
-                                            <option>Type</option>
+                                        <form role="form" id="property-form" class="navbar-form navbar-left">
+                                            <div class="form-group">
+                                                <input ng-model="property.name" type="text" class="form-control input-xs" id="min"
+                                                       placeholder="Property Name...">
+                                            </div>
 
-                                            <option>Integer</option>
-                                            <option>Float</option>
-                                            <option>Double</option>
-                                        </select>
+                                            <div class="form-group" >
 
-                                        <!--<div class="btn-group">
-                                            <input-button select-val = "currency.curtype = selectedVal"
-                                                          preselected-item = "get"
-                                                          data-dropdown-data = "types"
-                                                          placeholder = "Type"
-                                                          id="game-property-type-btn"
-                                                          data-menu-type="button"/>
-                                        </div>-->
-                                        <!--<input-button select-val = "currency.curtype = selectedVal"
-                                                     preselected-item = "get"
-                                                     data-dropdown-data = "types"
-                                                     id="currency-type-btn"
-                                                     data-menu-type="button"/>-->
+                                                <select class="form-control input-xs">
+                                                    <option>Type</option>
+
+                                                    <option>Integer</option>
+                                                    <option>Float</option>
+                                                    <option>Double</option>
+                                                </select>
+
+                                                <!--<div class="btn-group">
+                                                    <input-button select-val = "currency.curtype = selectedVal"
+                                                                  preselected-item = "get"
+                                                                  data-dropdown-data = "types"
+                                                                  placeholder = "Type"
+                                                                  id="game-property-type-btn"
+                                                                  data-menu-type="button"/>
+                                                </div>-->
+                                                <!--<input-button select-val = "currency.curtype = selectedVal"
+                                                             preselected-item = "get"
+                                                             data-dropdown-data = "types"
+                                                             id="currency-type-btn"
+                                                             data-menu-type="button"/>-->
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input ng-model="property.value" type="text" class="form-control input-xs" id="max"
+                                                       placeholder="Value...">
+                                            </div>
+                                            <div class="form-group">
+                                                <a id="add-curr-btn" class="btn btn-success btn-xs"  ng-click="addCurrency()" href="#">
+                                                    <i class="fa fa-plus"></i> Add Property</a>
+                                            </div>
+                                        </form>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--PROPERTY FORM-->
 
-                                    <div class="form-group">
-                                        <input ng-model="property.value" type="text" class="form-control input-xs" id="max"
-                                               placeholder="Value...">
-                                    </div>
-                                    <div class="form-group">
-                                        <a id="add-curr-btn" class="btn btn-success btn-xs"  ng-click="addCurrency()" href="#">
-                                            <i class="fa fa-plus"></i> Add Property</a>
-                                    </div>
-                                </form>
+                        <!--PROPERTIES TABLE-->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                                <table class="table table-hover table-striped table-condensed">
+                                    <thead>
+                                    <th>Name</th>
+                                    <th>Type</th>
+                                    <th>Value</th>
+                                    <th>Action</th>
+                                    </thead>
+                                    <tbody>
+                                    <tr ng-repeat="currency in currencies | filter:query">
+                                        <td>{{property.name}}</td>
+                                        <td>{{property.type}}</td>
+                                        <td>{{property.value}}</td>
+                                        <td>
+                                            <button type="button" class="btn btn-danger btn-xs"
+                                                    ng-click="deleteProperty(property.id)">Delete <span
+                                                class="fa fa-remove"></span></button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--PROPERTY FORM-->
 
-                <!--PROPERTIES TABLE-->
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                        <table class="table table-hover table-striped table-condensed">
-                            <thead>
-                            <th>Name</th>
-                            <th>Type</th>
-                            <th>Value</th>
-                            <th>Action</th>
-                            </thead>
-                            <tbody>
-                            <tr ng-repeat="currency in currencies | filter:query">
-                                <td>{{property.name}}</td>
-                                <td>{{property.type}}</td>
-                                <td>{{property.value}}</td>
-                                <td>
-                                    <button type="button" class="btn btn-danger btn-xs"
-                                            ng-click="deleteProperty(property.id)">Delete <span
-                                        class="fa fa-remove"></span></button>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            </div>
                 <!-- END OF PROPERTIES CONTENT -->
 
                 <!-- START OF SAMPLE -->
@@ -186,7 +196,6 @@
                         </div>
                     </div>
                 </div>-->
-            </div>
         </div>
     </section>
 </section>

@@ -33,16 +33,16 @@ a.user-profile {
 }
 
 .user-profile img {
-    width: 39px !important;
-    height: 39px !important;
+    width: 29px !important;
+    height: 29px !important;
     border-radius: 50%;
     margin-right: 10px;
 }
 
 @media (min-width: 768px) {
     .navbar-nav > li > a.user-profile {
-        padding-top: 5px;
-        padding-bottom: 0;
+        padding-top: 12px;
+        padding-bottom: 9px;
         margin-left: 30px;
     }
 }
@@ -66,6 +66,10 @@ a.user-profile {
     -webkit-text-shadow: none !important;
     -ms-text-shadow: none !important;
     text-shadow: none !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none;
 }
 
 textarea {
@@ -1269,6 +1273,7 @@ body {
 
 .navbar-inverse {
     background-color: $color_narkum_sea;
+    border: none;
     //background-color: #333;
 }
 
@@ -1757,7 +1762,7 @@ a {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .sidebar-filler {
         display: none;
     }
